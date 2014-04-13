@@ -1,4 +1,4 @@
-JDK
+JDK 6
 ---
 
 Vamos usar o _Java SE Development Kit 6 Update 35_, 
