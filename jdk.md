@@ -8,7 +8,7 @@ Baixe a última versão: [http://www.oracle.com/technetwork/java/javase/download
 
 Agora vamos fazer download do binário simples: [http://www.oracle.com/technetwork/java/javase/downloads/jdk6u35-downloads-1836443.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk6u35-downloads-1836443.html)
     
-Repare que estamos usando a versão __Java SE Development Kit 6 Update 35__, 
+Repare que estamos usando _Java SE Development Kit 6 Update 35_, 
 é a mais atual até o momento que escrevo esta documentação
     
 ### Execute 
