@@ -1,4 +1,4 @@
-Configuração
+Configurar java 1.7
 ---
 
 Para configurar o java, edite o arquivo `/etc/profile` e adicione as novas 
