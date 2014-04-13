@@ -15,5 +15,5 @@ o resultado deverá ser semelhante ao exemplo a seguir:
     OpenJDK Runtime Environment (fedora-2.4.5.1.fc20-x86_64 u51-b31)                                                  
     OpenJDK 64-Bit Server VM (build 24.51-b03, mixed mode) 
 
-Se não exibir um conteúdo semelhante a esse, reinicie o SO para reforçar a aceitação
-das novas variáveis de ambiente.  
+_Obs: Se não exibir um conteúdo semelhante a esse, reinicie o SO para reforçar a aceitação
+das novas variáveis de ambiente._
