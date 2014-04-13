@@ -1,13 +1,7 @@
 JDK
 ---
 
-Baixe a última versão:                     
-[http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)     
-    
-### Execute
-    # yum install -y jdk-8-linux-x64.rpm
-
-Agora vamos fazer download do binário simples:                
+Faça o download no site da Oracle. Não baixe o rpm, use o binário simples:                
 [http://www.oracle.com/technetwork/java/javase/downloads/jdk6u35-downloads-1836443.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk6u35-downloads-1836443.html)
     
 Repare que estamos usando _Java SE Development Kit 6 Update 35_, 
