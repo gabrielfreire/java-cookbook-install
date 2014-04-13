@@ -4,7 +4,7 @@ Tomcat 7
 Baixe a última versão:           
 [http://tomcat.apache.org/download-70.cgi](http://tomcat.apache.org/download-70.cgi)
 
-Depois de realizar o donwload do arquivo, copie-o para a pasta /usr/java e, utilizando
+Depois de realizar o donwload do arquivo, copie-o para a pasta `/usr/java` e, utilizando
 o comando tar, extraia o arquivo nesse diretório, conforme a seguir.
 
     tar xvfz apache-tomcat-7.0.53
