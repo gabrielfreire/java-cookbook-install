@@ -8,7 +8,7 @@ variáveis de ambiente com o seguinte conteúdo ao final do arquivo:
     export CLASSPATH=.:$CLASSPATH                                                                                     
     export PATH=$JAVA_HOME/bin:$PATH  
 
-Depois de salvar, digite java -version para testar o funcionamento do java,
+Depois de salvar, digite _java -version_ para testar o funcionamento do java,
 o resultado deverá ser semelhante ao exemplo a seguir:
 
     java version "1.7.0_51"                                                                                           
