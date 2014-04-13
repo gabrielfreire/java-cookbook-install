@@ -13,5 +13,5 @@ Vamos usar o _Java SE Development Kit 6 Update 35_,
     # chmod 777 jdk-6u35-linux-x64.bin
     ./jdk-6u35-linux-x64.bin
 
-Faça uma cópia do diretório que acabou de ser criado:              
+Faça uma cópia do diretório que acabou de ser criado: 
     # cp /jdk1.6.0_35 /usr/java
