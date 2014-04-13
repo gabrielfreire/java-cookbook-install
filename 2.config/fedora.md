@@ -4,7 +4,7 @@ Configuração
 Para configurar o java, edite o arquivo `/etc/profile` e adicione as novas 
 variáveis de ambiente com o seguinte conteúdo ao final do arquivo:
 
-    export JAVA_HOME=/usr/java/jdk1.6.0_18                                                                            
+    export JAVA_HOME=/usr/java/jdk1.6.0_35                                                                            
     export CLASSPATH=.:$CLASSPATH                                                                                     
     export PATH=$JAVA_HOME/bin:$PATH  
 
