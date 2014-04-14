@@ -1,7 +1,7 @@
 Eclipse
 ---
 
-Acesse a área de download:       
+Faça o download:       
 [http://www.eclipse.org/downloads/](http://www.eclipse.org/downloads/)
 
 
