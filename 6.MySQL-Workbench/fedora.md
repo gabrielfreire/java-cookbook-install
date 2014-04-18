@@ -1,6 +1,11 @@
 MySQL Workbench
 ---
 
+Instalar utilitários:
+
+    # yum install -y libzip ctemplate ctemplate-devel lua lua-devel tinyxml compat-lua-libs vsqlite++ python-paramiko
+
+
 Faça o download:       
 [http://www.mysql.com/downloads/workbench/](http://www.mysql.com/downloads/workbench/)
 
