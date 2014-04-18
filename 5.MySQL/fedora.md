@@ -43,6 +43,11 @@ Acesse o arquivo `/etc/profile` e acrescente a seguinte linha:
     export PATH=$PATH:/usr/local/mysql/bin
 
 
+Correção do erro: 'Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)'
+Check that mysqld is running and that the socket: '/tmp/mysql.sock' exists!
 
+Entre no arquivo `/etc/my.cnf` e adicione as linhas:
 
+    [mysqladmin]
+    socket=/var/lib/mysql/mysql.sock
 
