@@ -38,7 +38,7 @@ _Alterar senha_
     # ./mysqladmin -u root password nova_senha
 
 
-Acesse o arquivo `/etc/profile` e acrescente a seguinte linha:
+Para incluir os executáveis no PATH, acrescente no arquivo `/etc/profile` a seguinte linha:
 
     export PATH=$PATH:/usr/local/mysql/bin
 
