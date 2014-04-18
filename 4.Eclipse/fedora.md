@@ -31,7 +31,7 @@ Agora, adicione as seguintes linhas no arquivo:
     Comment=IDE de programação
     Exec=/usr/java/eclipse/eclipse
     Icon=/usr/java/eclipse/icon.xpm
-    Categories=GTK;Development;IDE;
+    Categories=GTK;Development;IDE
     Type=Application
 
 
