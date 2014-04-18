@@ -4,8 +4,8 @@ MySQL
 Faça o download:       
 [http://dev.mysql.com/downloads/mysql/](http://dev.mysql.com/downloads/mysql/)
 
-O pacote de download é __Linux - Generic (glibc 2.5) (x86, 32-bit), Compressed TAR Archive__,
-no qual o nome do arquivo é mysql-5.6.17-linux-glibc2.5-i686.tar.gz.
+O pacote de download é __Linux - Generic (glibc 2.5) (x86, 64-bit), Compressed TAR Archive__,
+no qual o nome do arquivo é mysql-5.6.17-linux-glibc2.5-x86_64.tar.gz.
 
 Tome cuidado ao fazer o download, existem diversos pacotes disponíveis, mudando somente
 o nome do arquivo no site.
