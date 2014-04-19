@@ -19,8 +19,6 @@ Depois de extraído, entre na pasta `eclipse/` e execute:
 
 ### Criar atalho
 
-No fedora, a forma mais prática é criar um atalho manualmente, execute:
-
     # nano /usr/share/applications/eclipse.desktop
 
 
