@@ -60,7 +60,7 @@ ou está instalado atualmente. Principalmente se foi via _yum_, pois não ficar�
 
 O mais comum são diretórios `mysql/` e o arquivo `etc/my.cnf`. A seguir um erro causado pela existência deste arquivo:
 
-    Starting MySQL... ERROR! The server quit without updating PID file (/var/lib/my                         sql/server.pelayan.com.pid).
+    Starting MySQL... ERROR! The server quit without updating PID file (/var/lib/mysql/server.pelayan.com.pid).
 
 Em nossa instalação que está concentrada no diretório `/usr/local/mysql`, já foi criado um arquivo de mesmo nome, temos que impedir que o arquivo em questão seja lido ao executar o mysql, execute:
 
