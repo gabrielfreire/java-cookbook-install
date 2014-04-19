@@ -7,7 +7,7 @@ Baixe a última versão:
 Depois de realizar o donwload do arquivo, copie-o para a pasta `/usr/java` e, utilizando
 o comando _tar_, extraia o arquivo nesse diretório, conforme a seguir.
 
-    tar xvfz apache-tomcat-7.0.53
+    tar xvfz apache-tomcat-7.0.53.tar.gz
 
 
 Copie a pasta com o conteúdo da instalação
