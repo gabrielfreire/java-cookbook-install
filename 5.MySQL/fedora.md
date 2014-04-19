@@ -35,7 +35,7 @@ _Finalizar o MySQL_
 
 _Alterar senha_
 
-    # ./mysqladmin -u root password nova_senha
+    # bin/mysqladmin -u root password nova_senha
 
 
 Para incluir os executáveis no PATH, acrescente no arquivo `/etc/profile` a seguinte linha:
@@ -43,11 +43,26 @@ Para incluir os executáveis no PATH, acrescente no arquivo `/etc/profile` a seg
     export PATH=$PATH:/usr/local/mysql/bin
 
 
-Correção do erro: 'Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)'
-Check that mysqld is running and that the socket: '/tmp/mysql.sock' exists!
+Faça uma cópia do executável para iniciar o mysql facilmente:
 
-Entre no arquivo `/etc/my.cnf` e adicione as linhas:
+    # cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysqld
 
-    [mysqladmin]
-    socket=/var/lib/mysql/mysql.sock
 
+Para iniciar o serviço, agora você pode executar:
+
+    # /etc/init.d/mysqld start
+
+
+### Erros
+
+Devemos tomar cuidado no caso de existir outro arquivos do mysql no servidor, caso já tenha sido instalado
+ou está instalado atualmente. Principalmente se foi via _yum_, pois não ficará em um único diretório.
+
+O mais comum são diretórios `mysql/` e o arquivo `etc/my.cnf`. A seguir um erro causado pela existência deste arquivo:
+
+    Starting MySQL... ERROR! The server quit without updating PID file (/var/lib/my                         sql/server.pelayan.com.pid).
+
+Em nossa instalação que está concentrada no diretório `/usr/local/mysql`, já foi criado um arquivo de mesmo nome, temos que impedir que o arquivo em questão seja lido ao executar o mysql, execute:
+
+    # mv /etc/my.cnf /etc/my.cnf.old
+    
