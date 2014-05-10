@@ -45,12 +45,12 @@ Para incluir os executáveis no PATH, acrescente no arquivo `/etc/profile` a seg
 
 Faça uma cópia do executável para iniciar o mysql facilmente:
 
-    # cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysqld
+    # cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql
 
 
 Para iniciar o serviço, agora você pode executar:
 
-    # /etc/init.d/mysqld start
+    # /etc/init.d/mysql start
 
 
 ### Erros
