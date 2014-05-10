@@ -11,7 +11,7 @@ variáveis de ambiente com o seguinte conteúdo ao final do arquivo:
 Depois de salvar, digite _java -version_ para testar o funcionamento do java,
 o resultado deverá ser semelhante ao exemplo a seguir:
 
-    java version "1.7.0_51"                                                                                           
+    java version "1.6.0_35"                                                                                           
     OpenJDK Runtime Environment (fedora-2.4.5.1.fc20-x86_64 u51-b31)                                                  
     OpenJDK 64-Bit Server VM (build 24.51-b03, mixed mode) 
 
