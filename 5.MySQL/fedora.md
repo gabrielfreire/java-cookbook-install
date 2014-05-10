@@ -16,7 +16,7 @@ o nome do arquivo no site.
     # useradd -g mysql mysql
     # cd /usr/local
     # tar zxvf caminho/do/arquivo/mysql-<versão>-<so>.tar.gz
-    # ln -s /mysql-<versão>-<so> mysql
+    # ln -s mysql-<versão>-<so>/ mysql
     # cd mysql
     # chown -R mysql .
     # chgrp -R mysql .
